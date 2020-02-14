@@ -68,9 +68,9 @@ p {
 /*code start here*/
 
 header{
-    width: 85%;
+    width: 87%;
     align-content: center;
-    margin: 0 7.5%;
+    margin: 0 0 0 6.59%;
 }
 
 nav{
@@ -90,7 +90,10 @@ a{
     padding: 0 0  0;
 }
 
-
+ .img img{
+     width: 100%;
+    margin: 3% 0 3% 0%;
+}
 
 
 
@@ -205,4 +208,17 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.container-about-page{
+    display:flex;
+}
+.tower-about-page img{
+    width: 100%;
+    margin: 3% 0 3% 0%;
+}
+
+.whole-about-page{
+    display: flex;
+    flex-direction: row;
 }
