@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: ;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -26,7 +26,6 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
 }
 body {
 	line-height: 1;
@@ -49,6 +48,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border:1px solid black;
 }
 
 html, body {
@@ -65,6 +65,37 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/*code start here*/
+
+header{
+    width: 85%;
+    align-content: center;
+    margin: 0 7.5%;
+}
+
+nav{
+    display:flex ;
+    flex-direction:row;
+    width: 100%;
+    
+}
+a{
+    display:flex ;
+    justify-content: ;
+    position: relative;
+    width: 100%;
+    text-decoration: none;
+    color:black;
+    text-align: ;
+    padding: 0 0  0;
+}
+
+
+
+
+
+
+
 
 .container {
     width: 800px;
@@ -101,15 +132,46 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1, .box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9,.box10  {
     width: 12.5%;
     height: 100px;
-    background: black;
+
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1{
+    background-color:teal ;
+}
+.box2{
+    background-color:gold ;
+}
+.box3{
+    background-color:cadetblue ;
+}
+.box4{
+    background-color: coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+    background-color: dodgerblue;
 }
 
 .bottom-content {
