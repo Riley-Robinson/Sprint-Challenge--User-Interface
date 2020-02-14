@@ -27,6 +27,13 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 }
+html, body, {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
 body {
 	line-height: 1;
 }
@@ -47,8 +54,11 @@ table {
 }
 
 * {
-    box-sizing: border-box;
-    border:1px solid black;
+    box-sizing:border-box;
+  padding:0;
+  margin:0;
+  max-width:100%;
+    ;
 }
 
 html, body {
@@ -68,16 +78,32 @@ p {
 /*code start here*/
 
 header{
+    display: flex;
     width: 87%;
     align-content: center;
     margin: 0 0 0 6.59%;
+    max-width: 100%;
 }
 
 nav{
     display:flex ;
     flex-direction:row;
     width: 100%;
+    position: static;
+    max-width: 100%;
     
+    
+}
+.home1{ display:flex ;
+    justify-content: ;
+    position: relative;
+    width: 100%;
+    text-decoration: none;
+    color:black;
+    text-align: ;
+    margin: 5% 0 0 5%;
+    padding: 0 0 0 0;
+
 }
 a{
     display:flex ;
@@ -87,16 +113,14 @@ a{
     text-decoration: none;
     color:black;
     text-align: ;
-    padding: 0 0  0;
+    margin: 5% 0 0 5%;
+    padding: 0 0 0 0;
 }
 
  .img img{
      width: 100%;
     margin: 3% 0 3% 0%;
 }
-
-
-
 
 
 
@@ -213,12 +237,43 @@ footer nav a {
 .container-about-page{
     display:flex;
 }
-.tower-about-page img{
+
+
+.whole1,.whole2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+.tower{
+    display: flex;
+    justify-content: center;
     width: 100%;
     margin: 3% 0 3% 0%;
 }
+hr{
+    border-top: dotted;
+}
+button{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding:3% 8% ;
+}
 
-.whole-about-page{
-    display: flex;
-    flex-direction: row;
+
+#line5{
+    width: 94%;
+    
+
+}
+
+.t{
+    width: 100;
+}
+
+.working9{
+
+    width: 90%;
 }
